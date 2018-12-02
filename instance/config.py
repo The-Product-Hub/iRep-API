@@ -5,8 +5,8 @@ class Config(object):
     DEBUG = False
     CSRF_ENABLED = True
     SECRET = os.getenv('SECRET')
-    DATABASE_URL = os.getenv(DATABASE_URL)
-    DATABASE_URL_TEST = os.getenv(DATABASE_URL_TEST) 
+    # DATABASE_URL = os.getenv(DATABASE_URL)
+    # DATABASE_URL_TEST = os.getenv(DATABASE_URL_TEST) 
 
 class DevelopmentConfig(Config):
     DEBUG = True
@@ -28,4 +28,4 @@ app_config = {
     'testing' : TestingConfig,
     'staging': StagingConfig,
     'production' : ProductionConfig,
-    }                                                                                                                                                                                                                                                                                                  mmmmmmmmmmmm                                                                                                                                                                     
+    }
