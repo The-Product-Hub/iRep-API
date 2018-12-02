@@ -6,10 +6,7 @@ redflag_records = []
 class MyRedflagModels():
     def __init__(self):
         self.db = redflag_records
-       # if len(self.db)==0:
-        #    self.id=1
-        #else:
-         #   self.id = len(self.db)+1
+
     def save(self,CreatedBy, IncidenceType, Location, Status, Comment ):
         data = {
             "Id" : len(self.db) + 1,
@@ -24,19 +21,12 @@ class MyRedflagModels():
     
     def view(self):
         return self.db
-
-   
+  
     def find_by_id(self, id):
 
         record = [record for record in self.db if record['Id'] == id]
 
         return record
-        
-        # self.id= id
-        # for result in self.db:
-        #     if result['id'] == id:
-                                
-        #         return self.id
     
     def post_redflag(self):
         data = request.get_json(force=True)
