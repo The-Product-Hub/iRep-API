@@ -9,7 +9,6 @@ def create_app(config_name):
     app = Flask(__name__)
     api =  Api(app)
     app.register_blueprint(v1)
-
     api.add_resource( MyRedflags, "/redflags")
     api.add_resource( MyRedflag, "/redflags/<int:id>")
     
