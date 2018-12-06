@@ -12,4 +12,4 @@ script:
 
 after success:
   -coveralls
-  -codecov -- token=
+  -codecov -- token=863c426d-5750-46a3-a63f-3f1c27e8d94c
