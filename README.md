@@ -1,4 +1,4 @@
-# iReporter-API   [![Build Status](https://travis-ci.org/teevic80/iRep-API.svg?branch=develop)](https://travis-ci.org/teevic80/iRep-API) [![Coverage Status](https://coveralls.io/repos/github/teevic80/iRep-API/badge.svg?branch=develop)](https://coveralls.io/github/teevic80/iRep-API?branch=develop)
+# iReporter-API   [![Build Status](https://travis-ci.org/teevic80/iRep-API.svg?branch=develop)](https://travis-ci.org/teevic80/iRep-API) [![Coverage Status](https://coveralls.io/repos/github/teevic80/iRep-API/badge.svg?branch=develop)](https://coveralls.io/github/teevic80/iRep-API?branch=develop) [![Maintainability](https://api.codeclimate.com/v1/badges/fa332a2cf1cd09b8f5e3/maintainability)](https://codeclimate.com/github/teevic80/iRep-API/maintainability)
 
 This repository tracks the development progress of iReporter's API.
 
