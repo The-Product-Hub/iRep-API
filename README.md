@@ -1,44 +1,48 @@
-# iReporter-API
+# iReporter-API   [![Build Status](https://travis-ci.org/teevic80/iRep-API.svg?branch=develop)](https://travis-ci.org/teevic80/iRep-API)
 
 This repository tracks the development progress of iReporter's API.
 
-iReporter is a web application that enables it's users to shine light on any corruption incidents and bring them to thefocus of appropriate authorities and the general public. Users can also report cases which require government intervention. 
+iReporter is a web application that enables it's users to shine light on any corruption incidents and bring them to the focus of appropriate authorities and the general public. Users can also report cases which require government intervention. 
 
-## Framework
+### Framework
 
 This API is built using Python-Flask.
 
-## Installation Process
+### Installation Process
 
 1. To access the project, run command on terminal as follows:
 
-$ git clone https://github.com/teevic80/iRep-Api.git
+`$ git clone https://github.com/teevic80/iRep-Api.git`
 
-2. Use python 3 and the following virtual environment:
+2. Create a virtual environment by entering:
 
-$ source venv/bin/activate
+`$ virtualenv venv`
 
-3. Install the requirements as follows:
+3. Use python 3 and activate the following virtual environment:
 
-$ pip install -r requirements.txt
+`$ source venv/bin/activate`
 
-## Endpoints Coverage
+4. Install the requirements as follows:
+
+`$ pip install -r requirements.txt`
+
+### Endpoints Coverage
 
 #add endpoint coverage table.
 
-## Test Coverage
+### Test Coverage
 
 The app can be tested on postman using 
 
-$ flask run
+`$ flask run`
 
-$ python run.py
+`$ python run.py`
 
 And using pytest run the following command
 
-$ py.test --cov=app test
+`$ py.test --cov=app test`
 
-## Hosting
+### Hosting
 
 The app is hosted on Heroku at:
 
