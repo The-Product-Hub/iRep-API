@@ -1,11 +1,10 @@
 from flask import make_response, jsonify, request
 from datetime import date
-from app.v1.views import views
 
 db_records = []
 
 class MyRedflagModels():
-
+    
     def __init__(self):
         self.db = db_records
 
@@ -19,6 +18,7 @@ class MyRedflagModels():
         data['Status'] = Status
         data['Uploads'] = Uploads
         data['Comment'] = Comment
+
         db_records.append(data)
         records = len(self.db)
         print(records)
@@ -31,7 +31,7 @@ class MyRedflagModels():
         if len(db_records) == 0:
             return jsonify({
                 "Status" : 200,
-                "message" : "No record found."
+                "message" : "No Record created"
             })
 
     def get_by_id(self, id):
@@ -66,4 +66,4 @@ class MyRedflagModels():
                 return jsonify({
                     "status" : 404,
                     "message" : "Record does not exist."
-                }) 
+                })
